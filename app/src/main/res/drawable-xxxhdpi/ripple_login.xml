@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <gradient android:radius="@dimen/radius_button" />
+            <solid android:color="@color/md_grey_200" /><!--md_grey_700-->
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <gradient android:radius="@dimen/radius_button" />
+            <solid android:color="@color/md_grey_7001" /><!--md_red_A700-->
+        </shape>
+    </item>
+
+</selector>

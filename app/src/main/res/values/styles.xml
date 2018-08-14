@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slideinfromright</item>
+        <item name="android:windowExitAnimation">@anim/slideouttoleft</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+
+        <item name="android:textColor">@color/md_grey_500</item>
+        <item name="android:textColorHint">@color/md_green_700</item>
+        <item name="android:textSize">20sp</item>
+
+        <item name="colorAccent">@color/md_green_700</item>
+        <item name="colorControlNormal">@color/md_grey_500</item>
+        <item name="colorControlActivated">@color/md_green_700</item>
+    </style>
+
+    <style name="default_button">
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:layout_width">120.0dip</item>
+        <item name="android:layout_height">36.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+    </style>
+
+    <style name="default_button_2">
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/btn_default_2</item>
+        <item name="android:layout_width">120.0dip</item>
+        <item name="android:layout_height">36.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+    </style>
+    <!--https://stackoverflow.com/questions/12246388/remove-shadow-below-actionbar-->
+    <style name="MyAppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

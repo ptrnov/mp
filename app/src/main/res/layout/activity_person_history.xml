@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/md_grey_f3"
+        android:orientation="vertical"
+        tools:context=".Menu.Site.Person.History.PersonHistoryActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/linear_data_penjaga_lahan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/raleway_regular"
+                    android:text="Data Penjaga Lahan"
+                    android:textColor="@color/md_red_A600"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/rounded_view_outline_top"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:paddingTop="18dp">
+
+                        <TextView
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:text="Nama"
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/nama_penjaga_lahan_history"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="70"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="-"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/rounded_view_middle"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:text="Alamat "
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/alamat_penjaga_lahan_history"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:textAppearance="@android:style/TextAppearance"
+                            android:layout_weight="70"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="-"
+                            android:textSize="13sp"
+                            android:textStyle="normal"  />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/rounded_view_middle"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:text="Provinsi "
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/provinsi_penjaga_lahan_history"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="70"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="-"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/rounded_view_middle"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Kabupaten "
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/kabupaten_penjaga_lahan_history"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="70"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="-"
+                            android:textSize="13sp"
+                            android:textStyle="normal"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/rounded_view_middle"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="Kecamatan "
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/kecamatan_penjaga_lahan_history"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="70"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="-"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_view_middle"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:text="No TLP "
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/no_phone_penjaga_lahan_history"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="70"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="-"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_view_middle"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:text="No KTP "
+                            android:textColor="@color/md_grey_700"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/no_ktp_penjaga_lahan_history"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="70"
+                            android:fontFamily="@font/raleway_regular"
+                            android:text="-"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <!-- data nominal -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/pic_person_history"
+                    android:layout_width="55dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/rounded_menu">
+
+                    <ImageView
+                        android:id="@+id/img_person_history"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_above="@+id/count_photo_person_history"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="4dp"
+                        android:padding="4dp"
+                        android:src="@drawable/ic_photo_camera_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/count_photo_person_history"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/rounded_btn_green"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="photo"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/submit_person_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/button_bg"
+                    android:text="SUBMIT"
+                    android:textColor="@color/md_white_1000" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--</android.support.constraint.ConstraintLayout>-->
+    </ScrollView>

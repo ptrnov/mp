@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.Site.IMB.History.IMBHistoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!--</RelativeLayout>-->
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/linear_imb_history"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/raleway_regular"
+                android:text="Data IMB"
+                android:textColor="@color/md_red_A600"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/rounded_view_outline_top"
+                        android:paddingBottom="12dp"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:paddingTop="18dp">
+
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:text="NAMA "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                     <TextView
+                        android:id="@+id/nama_imb_history"
+                         android:layout_width="0dp"
+                         android:layout_height="25dp"
+                         android:layout_weight="70"
+                         android:fontFamily="@font/raleway_regular"
+                         android:text="-"
+                         android:textSize="13sp"
+                         android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_outline_top"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="18dp">
+
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:text="NO IMB "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/no_imb_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="ALAMAT IMB "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/alamat_imb_history"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textAppearance="@android:style/TextAppearance"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+                <TextView
+                        android:text="MASA SEWA / MASA BERLAKU "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Tanggal Awal : "
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Tanggal Akhir :"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+                    <TextView
+                        android:id="@+id/date_before_history"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:text="-"
+                        android:fontFamily="@font/raleway_regular"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/date_after_history"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:text="-"
+                        android:fontFamily="@font/raleway_regular"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+                        <!--android:id="@+id/date_after_history"-->
+                        <!--android:layout_width="0dip"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:background="@drawable/edittext_bg"-->
+                        <!--android:layout_margin="10dp"-->
+                        <!--android:layout_weight="0.5"-->
+                        <!--android:editable="false"-->
+                        <!--android:hint="TANGGAL AKHIR"-->
+                        <!--android:textSize="13sp"-->
+                        <!--app:met_floatingLabel="normal"/>-->
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/pic_imb_history"
+                android:background="@drawable/rounded_menu"
+                android:layout_width="55dp"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/img_imb_history"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/count_photo_imb_history"
+                    android:layout_alignParentTop="true"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_photo_camera_black_24dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/count_photo_imb_history"
+                    android:textSize="10sp"
+                    android:layout_alignParentBottom="true"
+                    android:padding="4dp"
+                    android:text="photo"
+                    android:textColor="@color/md_white_1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_btn_green"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/submit_imb_history"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/button_bg"
+                android:text="SUBMIT"
+                android:textColor="@color/md_white_1000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.Site.Alamat.Actual.History.AlamatActualHistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="549dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/linear_alamat_actual_history"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/raleway_regular"
+                android:text="Data Alamat Aktual"
+                android:textColor="@color/md_red_A600"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_outline_top"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="18dp">
+                    <!--android:background="@color/md_grey_f3"-->
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Site Name "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/site_name_actual_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Alamat "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/alamat_actual_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:textAppearance="@android:style/TextAppearance"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Provinsi "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/provinsi_actual_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="112dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Kabupaten "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/kabupaten_actual_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="13dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Kecamatan "
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/kecamatan_actual_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Longitude "
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Latitude "
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="@drawable/rounded_view_middle"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/long_actual_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="  " />
+
+                    <TextView
+                        android:id="@+id/lat_actual_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/rounded_view_middle"-->
+                    <!--android:padding="12dp">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="112dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:fontFamily="@font/raleway_regular"-->
+                        <!--android:text="Status Approval "-->
+                        <!--android:textColor="@color/md_grey_700"-->
+                        <!--android:textSize="13sp"-->
+                        <!--android:textStyle="bold" />-->
+
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/status_approval_actual_history"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:layout_weight="70"-->
+                        <!--android:fontFamily="@font/raleway_regular"-->
+                        <!--android:text="-"-->
+                        <!--android:textSize="13sp"-->
+                        <!--android:textStyle="normal" />-->
+                <!--</LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/md_grey_f3"
+                    android:padding="10dp"
+                    android:paddingLeft="12dp">
+
+                    <!--<Button-->
+                    <!--android:id="@+id/submit"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:textColor="@color/md_white_1000"-->
+                    <!--android:text="UPDATE"-->
+                    <!--android:layout_marginLeft="12dp"-->
+                    <!--android:background="@drawable/ripple"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+                </LinearLayout>
+
+                <!--<RelativeLayout-->
+                <!--android:id="@+id/rlPickLocation"-->
+
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true">-->
+
+                <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:src="@drawable/ic_pick"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="30dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="30dp" />&ndash;&gt;-->
+                <!--<ImageButton-->
+                <!--android:id="@+id/btnLocation"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:src="@drawable/ic_pick" />-->
+
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/btnLocation"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="18dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="PICK LOCATION"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@color/colorPrimary" />&ndash;&gt;-->
+
+                <!--</LinearLayout>-->
+                <!--</RelativeLayout>-->
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp">
+
+            <Button
+                android:id="@+id/submit_alamatActual_history"
+                android:text="SUBMIT"
+                android:layout_gravity="center"
+                android:textColor="@color/md_white_1000"
+                android:background="@drawable/button_bg"
+                android:layout_marginLeft="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/md_grey_f3"
+    android:orientation="vertical"
+    tools:context="com.cudo.mproject.Menu.Site.IMB.IMBActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="40dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/linear_imb"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:text="Data IMB"-->
+            <!--android:textColor="@color/md_red_A600"-->
+            <!--android:textSize="19sp"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--</RelativeLayout>-->
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/linear_imb"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/raleway_regular"
+                android:text="Data IMB"
+                android:textColor="@color/md_red_A600"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                    <TextView
+                        android:text="NAMA *"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <EditText
+                    android:id="@+id/nama_imb"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="70"
+                    android:background="@drawable/edittext_bg"
+                    android:text=""
+                    android:textSize="13dp" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                    <TextView
+                        android:text="NO IMB *"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <EditText
+                    android:id="@+id/no_imb"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="70"
+                    android:background="@drawable/edittext_bg"
+                    android:text=""
+                    android:textSize="13sp"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/segoeui"
+                    android:text="ALAMAT IMB *"
+                    android:textColor="@color/md_grey_700"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                    <EditText
+                        android:id="@+id/alamat_imb"
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="30"
+                        android:background="@drawable/edittext_bg"
+                        android:breakStrategy="balanced"
+                        android:fitsSystemWindows="true"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false"
+                        android:textSize="13sp"/>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+                    <TextView
+                        android:text="MASA SEWA / MASA BERLAKU *"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold"/>
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/masa_sewa"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="70"-->
+                        <!--android:textSize="12dp"-->
+                        <!--android:text="-" />-->
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_grey_f3"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/date_before"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    android:editable="false"
+                    android:hint="TANGGAL AWAL"
+                    android:textSize="13sp"
+                    app:met_floatingLabel="normal"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/date_after"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_bg"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    android:editable="false"
+                    android:hint="TANGGAL AKHIR"
+                    android:textSize="13sp"
+                    app:met_floatingLabel="normal"/>
+                <!--<DatePicker-->
+                    <!--android:id="@+id/date_before"-->
+                    <!--android:layout_width="238dp"-->
+                    <!--android:layout_height="81dp"-->
+                    <!--android:calendarViewShown="false"-->
+                    <!--android:datePickerMode="spinner" />-->
+          </LinearLayout>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/rounded_view_middle"-->
+                    <!--android:padding="12dp">-->
+                    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/date_before"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="-"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="12sp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_weight="30"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="50"-->
+                        <!--android:text="TANGGAL AKHIR"-->
+                        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                        <!--android:textStyle="bold" />-->
+                    <!--<DatePicker-->
+                        <!--android:id="@+id/date_after"-->
+                        <!--android:layout_width="238dp"-->
+                        <!--android:layout_height="81dp"-->
+                        <!--android:calendarViewShown="false"-->
+                        <!--android:datePickerMode="spinner" />-->
+                    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/date_after"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="-"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="12sp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_weight="30"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;<DatePicker&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/date_after"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:datePickerMode="spinner"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="160dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:calendarViewShown="false"/>&ndash;&gt;-->
+                <!--</LinearLayout>-->
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/linear_imb"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:background="@drawable/rounded_btn"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="4dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="18dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Data IMB"-->
+                <!--android:textColor="@color/md_white_1000" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:src="@drawable/ic_info_black_24dp" />-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/pic_imb"
+            android:background="@drawable/rounded_menu"
+            android:layout_width="55dp"
+            android:layout_height="60dp">
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:id="@+id/img_imb"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/count_photo_imb"
+                android:layout_alignParentTop="true"
+                android:padding="4dp"
+                android:src="@drawable/ic_photo_camera_black_24dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/count_photo_imb"
+                android:textSize="10sp"
+                android:layout_alignParentBottom="true"
+                android:padding="4dp"
+                android:text="photo"
+                android:textColor="@color/md_white_1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn_green"/>
+        </RelativeLayout>
+        <Button
+            android:text="SUBMIT"
+            android:id="@+id/submit_imb"
+            android:layout_gravity="center"
+            android:textColor="@color/md_white_1000"
+            android:background="@drawable/button_bg"
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

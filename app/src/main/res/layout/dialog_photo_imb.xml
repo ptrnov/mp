@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_menu_white"
+    android:gravity="center"
+ >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/dummy"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            tools:ignore="Orientation" />
+        <TextView
+            android:textColor="@color/md_white_1000"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Edit Foto"
+            android:id="@+id/edit_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_alignParentTop="true"
+                android:background="@color/md_black_1000"
+                android:layout_above="@+id/input_layout"
+                android:id="@+id/xaxa"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_above="@+id/buttonPanel"
+                android:id="@+id/input_layout"
+                android:padding="8dp"
+                android:background="@color/md_blue_500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <EditText
+                    android:textColor="@color/md_white_1000"
+                    android:id="@+id/desc"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp"
+                    android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+                    android:hint="description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:id="@+id/buttonPanel"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+<!-- button android:layout_weight="35"-->
+                <Button
+                    android:backgroundTint="@color/md_red_A700"
+                    android:drawableLeft="@drawable/ic_delete_black_24dp"
+                    android:text="delete"
+                    android:textColor="@color/md_white_1000"
+                    android:id="@+id/delete"
+                    android:layout_weight="50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:textColor="@color/md_white_1000"
+                    android:backgroundTint="@color/md_green_A700"
+                    android:drawableLeft="@drawable/ic_save_black_24dp"
+                    android:text="save"
+                    android:id="@+id/save"
+                    android:layout_weight="50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <!--<Button-->
+                    <!--android:textColor="@color/md_white_1000"-->
+                    <!--android:backgroundTint="@color/md_lime_400"-->
+                    <!--android:text="Ext"-->
+                    <!--android:id="@+id/extention"-->
+                    <!--android:layout_weight="20"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content" />-->
+                <!-- Spiner-->
+                <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="wrap_content"-->
+                <!--android:text="ext"-->
+                <!--android:textStyle="bold" />-->
+                <!--<Spinner-->
+                    <!--android:id="@+id/extention"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="45dp"-->
+                    <!--android:background="@android:drawable/btn_dropdown"-->
+                    <!--android:backgroundTint="@color/md_lime_400"-->
+                    <!--android:spinnerMode="dropdown"-->
+                    <!--android:textColor="@color/md_white_1000" />-->
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

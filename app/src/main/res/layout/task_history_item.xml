@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+<!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/gridview_history"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:columnWidth="90dp"-->
+    <!--android:numColumns="2"-->
+    <!--android:verticalSpacing="10dp"-->
+    <!--android:horizontalSpacing="10dp"-->
+    <!--android:stretchMode="columnWidth"-->
+    <!--android:gravity="center"-->
+    <!--/>-->
+
+<!--</RelativeLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp"
+    >
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardElevation="30dp"
+        card_view:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:id="@+id/history_layout"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/history_num"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/rounded_btn_green"
+                android:fontFamily="@font/raleway_regular"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="01"
+                android:textColor="@color/md_white_1000"
+                android:textSize="24sp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/id_layout_history"
+                android:layout_width="274dp"
+                android:layout_height="146dp"
+                android:layout_margin="8dp"
+                android:background="@color/md_transparant">
+                <!--android:background="@color/md_green_50"-->
+
+                <TextView
+                    android:id="@+id/wp_name_history"
+                    android:layout_width="197dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/activity_name_history"
+                    android:layout_alignParentStart="true"
+                    android:text="wp_name_history"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/md_black_1000"
+                    android:fontFamily="@font/raleway_regular"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/activity_name_history"
+                    android:layout_width="197dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/project_id_history"
+                    android:layout_alignParentStart="true"
+                    android:text="activity_name_history"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textColor="@color/md_black_1000"
+                    android:fontFamily="@font/raleway_regular"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/project_id_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/sitename_history"
+                    android:layout_alignParentStart="true"
+                    android:text="16SIKW123IS"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/raleway_regular"
+                    android:textStyle="bold" />
+                <!--<LinearLayout-->
+                <!--android:padding="12dp"-->
+                <!--android:background="@drawable/rounded_view_middle"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <TextView
+                    android:id="@+id/date_history"
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="22-12-2017 10:28"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/raleway_regular"
+                    android:textStyle="bold" />
+                <!--</LinearLayout>-->
+                <!--<TextView-->
+                <!--android:id="@+id/date_history"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/project_id_history"-->
+                <!--android:text="21/12/2017"-->
+                <!--android:textColor="@color/md_black_1000"-->
+                <!--android:textSize="12sp" />-->
+
+
+                <!--<TextView-->
+                <!--android:id="@+id/project_id_history"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_below="@+id/wpkg_history"-->
+                <!--android:layout_marginEnd="74dp"-->
+                <!--android:text="16SIKW123IS"-->
+                <!--android:textColor="@color/md_black_1000"-->
+                <!--android:textStyle="bold" />-->
+
+                <!--<RelativeLayout-->
+                <!--android:id="@+id/relativeLayout"-->
+                <!--android:layout_width="180dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_below="@+id/textView"-->
+                <!--android:background="@color/md_green_50"-->
+                <!--android:padding="4dp">-->
+
+
+                <TextView
+                    android:id="@+id/sitename_history"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="14dp"
+                    android:fontFamily="@font/raleway_regular"
+                    android:text="Sitename"
+                    android:textAppearance="@android:style/TextAppearance"
+                    android:textSize="14sp" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/tenant_history"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:text=""-->
+                <!--android:textColor="@color/md_grey_700"-->
+                <!--android:textSize="14sp" />-->
+
+                <!--<TextView-->
+                <!--android:layout_toRightOf="@+id/tenant"-->
+                <!--android:layout_below="@+id/sitename"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/md_grey_700"-->
+                <!--android:text=" - "-->
+                <!--android:id="@+id/separator"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+                <!--<TextView-->
+                <!--android:layout_toRightOf="@+id/separator"-->
+                <!--android:layout_below="@+id/sitename"-->
+                <!--android:textSize="12sp"-->
+                <!--android:textColor="@color/md_grey_700"-->
+                <!--android:text="B2S"-->
+                <!--android:id="@+id/sow"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+                <!--</RelativeLayout>-->
+
+                <TextView
+                    android:id="@+id/status_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/rounded_yellow"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:fontFamily="@font/raleway_regular"
+                    android:text="SUBMITED"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+                <!--<TextView-->
+                <!--android:id="@+id/textViewOptions"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+                <!--android:text="&#8942;"-->
+                <!--android:textAppearance="?android:textAppearanceLarge" />-->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--<View-->
+        <!--android:layout_marginLeft="12dp"-->
+        <!--android:layout_marginRight="12dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@drawable/shadow"/>-->
+
+</LinearLayout>

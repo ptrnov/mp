@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ganz.absensi.MainActivity">
+    <item
+        android:id="@+id/project_list_site_prof"
+        android:orderInCategory="100"
+        android:title="List Projects"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/history_site_prof"
+        android:orderInCategory="100"
+        android:title="History"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/version_apk_site_prof"
+        android:orderInCategory="100"
+        android:title="Cek Version"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout_site_prof"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

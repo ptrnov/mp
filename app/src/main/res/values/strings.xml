@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">M-Project</string>
+    <string name="app_name_long">Mitratel Project Management Information System</string>
+    <string name="global_error_response">Login Tidak Valid</string>
+    <string name="warning">Perhatian!</string>
+    <string name="empty">Harus Di Isi!</string>
+    <string name="getPermissionConfirm">aplikasi ini membutuhkan izin untuk menggunakan fitur yang dibutuhkan...</string>
+    <!-- Strings related to login -->
+    <string name="title_activity_task_history">TaskHistoryActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_site_profile">SiteProfileActivity</string>
+    <string name="title_activity_tab">AndroidTabLayoutActivity</string>
+    <string name="title_activity_tab_fragment">TabActivityFragment</string>
+    <string name="title_activity_tab_history">TabActivityHistory</string>
+    <string name="title_activity_alert_GPS_dialog">AlertGPSDialog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_imb">IMB</string>
+    <string name="title_activity_alamat_actual">AlamatActualActivity</string>
+    <string name="title_activity_pln">PLNActivity</string>
+    <string name="title_activity_photo_imb">PhotoIMBActivity</string>
+    <string name="title_activity_photo_person">PhotoPersonActivity</string>
+    <string name="title_activity_photo_pln">PhotoPLNActivity</string>
+    <string name="title_activity_audio">AudioActivity</string>
+    <string name="title_activity_photo_document">PhotoDocumentActivity</string>
+    <string name="title_activity_history_site">HistorySiteActivity</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alamat_actual_history">AlamatActualHistoryActivity</string>
+    <string name="title_activity_person_history">PersonHistoryActivity</string>
+    <string name="title_activity_imbhistory">IMBHistoryActivity</string>
+    <string name="title_activity_plnhistory">PLNHistoryActivity</string>
+</resources>

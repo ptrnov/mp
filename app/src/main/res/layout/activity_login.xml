@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@drawable/bg11"--><!--android:orientation="vertical">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/md_red_A600"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/main_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_red_A600"
+        android:orientation="vertical">
+        <!--<LinearLayout-->
+        <!--android:id="@+id/main_lay"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="visible">-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:orientation="vertical">-->
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="68dp"
+            android:layout_height="31dp"
+            android:layout_below="@+id/text2"
+            android:fontFamily="@font/calibri"
+            android:gravity="center"
+            android:text="V1.2"
+            android:textColor="@color/md_white_1000"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/logo_mitratel"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/mitratel_1" />
+
+        <ImageView
+            android:id="@+id/logo_mproject"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo_mproject" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/raleway_regular"
+            android:gravity="center"
+            android:text="@string/app_name_long"
+            android:textColor="@color/md_white_1000"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/text2"-->
+        <!--android:layout_below="@+id/Logo_mproject"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/app_name"-->
+        <!--android:textColor="@color/md_white_1000"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:typeface="sans" />-->
+        <!--MPROJECT-->
+
+
+        <!--</RelativeLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<include-->
+        <!--layout="@layout/splash_screen"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--tools:ignore="IncludeLayoutParam"-->
+        <!--android:layout_width="match_parent" />-->
+
+        <!--</RelativeLayout>-->
+        <!--</android.support.constraint.ConstraintLayout>-->
+        <RelativeLayout
+
+            android:id="@+id/layoutinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:paddingTop="5dp"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:id="@+id/form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_username"
+                    android:layout_width="315dp"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/username"
+                        style="@android:style/Widget.EditText"
+                        android:layout_width="278dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/ic_person_1"
+                        android:ems="10"
+                        android:fontFamily="@font/segoeui"
+                        android:gravity="top"
+                        android:hint="Username"
+                        android:inputType="textAutoComplete"
+                        android:textColor="@color/md_white_1000" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="278dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/ic_lock_1"
+                        android:ems="10"
+                        android:fontFamily="@font/segoeui"
+                        android:gravity="top"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="@color/md_white_1000" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/form">
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="219dp"
+                android:layout_height="41dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ripple_login"
+                android:elevation="4dp"
+                android:fontFamily="@font/calibri"
+                android:text="Login"
+                android:textColor="@color/md_white_1000" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/form">
+            <ImageView
+                android:id="@+id/logoCudo"
+                android:layout_width="29dp"
+                android:layout_height="37dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="59dp"
+                android:src="@drawable/logo_cudo" />
+            <TextView
+                android:id="@+id/powered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="Powered by www.cudocomm.com"
+                android:textColor="@color/md_white_1000"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/sw721lt" />
+        </RelativeLayout>
+
+        <include
+            layout="@layout/splash_screen"
+            android:layout_width="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:ignore="IncludeLayoutParam" />
+    </LinearLayout>
+    </LinearLayout>

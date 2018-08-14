@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/md_red_500</color>
+    <color name="colorPrimaryDark">@color/md_red_900</color>
+    <color name="colorAccent">@color/md_red_A700</color>
+    <color name="button_primary">@color/colorAccent</color>
+    <!--transparant-->
+    <color name="md_transparant">#80ffffff</color>
+    <!-- -->
+    <!--reds-->
+    <color name="md_red_500">#F44336</color>
+    <color name="md_red_600">#E53935</color>
+    <color name="md_red_900">#B71C1C</color>
+    <color name="md_red_A700">#D50000</color>
+    <!--use it-->
+    <color name="md_red_A600">#D52B38</color>
+
+
+    <!-- pinks -->
+    <!-- purples -->
+
+    <!-- deep purples -->
+
+    <!-- indigo -->
+
+    <!--blue-->
+    <color name="md_blue_500">#2196F3</color>
+    <color name="color_btn_2">#303480</color>
+    <color name="color_btn">#308063</color>
+    <!-- light blue-->
+
+    <!-- cyan -->
+
+    <!-- teal -->
+
+    <!-- green -->
+    <color name="md_green_50">#E8F5E9</color>
+    <color name="md_green_A700">#00C853</color>
+
+    <!--light green-->
+    <color name="md_light_green_A700">#64DD17</color>
+    <color name="md_green_700">#388E3C</color>
+
+    <!-- lime-->
+
+    <!--yellow -->
+    <color name="md_yellow_600">#FDD835</color>
+    <color name="md_yellow_A700">#FFD600</color>
+
+    <!--amber-->
+
+    <!--orange-->
+
+    <!--deep orange-->
+
+    <!--brown -->
+
+    <!--grey-->
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_7001">#2F3245</color>
+    <!-- use it -->
+    <color name="md_grey_f3">#f3f3f3</color>
+    <color name="md_grey_sidebar">#2F3245</color>
+    <!-- use it -->
+    <color name="md_black_1000">#000000</color>
+    <color name="md_white_1000">#ffffff</color>
+
+    <!--blue grey-->
+
+
+    <!--95%-->
+    <!--90%-->
+    <!--85%-->
+    <!--80%-->
+    <!--75%-->
+    <!--70%-->
+    <!--65%-->
+    <!--60%-->
+    <!--55%-->
+    <!--50%-->
+    <!--45%-->
+    <!--40%-->
+    <!--35%-->
+    <!--30%-->
+    <!--25%-->
+    <!--20%-->
+    <!--15%-->
+    <!--10%-->
+    <!--5%-->
+
+
+
+    <color name="greyalpha">#909E9E9E</color>
+
+    <color name="greyalpha4">#BF9E9E9E</color>
+    <color name="greyalpha5">#B39E9E9E</color>
+    <!--35%-->
+    <!--30%-->
+    <!--25%-->
+    <!--20%-->
+    <!--15%-->
+    <!--10%-->
+    <!--5%-->
+    <color name="menu_btn">@color/greyalpha5</color>
+</resources>

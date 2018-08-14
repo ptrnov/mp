@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "981940809207",
+    "firebase_url": "https://mproject-366a8.firebaseio.com",
+    "project_id": "mproject-366a8",
+    "storage_bucket": "mproject-366a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981940809207:android:252b9c28d4296566",
+        "android_client_info": {
+          "package_name": "com.cudo.mproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981940809207-4c9p2e5ph9ds7kcjh2dn1irb51jg55km.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "981940809207-4c9p2e5ph9ds7kcjh2dn1irb51jg55km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI0eLrJAONR3C6jrtKtTx1PwnXIWnUOiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

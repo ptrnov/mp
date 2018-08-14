@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    app:itemBackground="@color/md_grey_sidebar">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lis_project"
+            android:icon="@drawable/ic_list_profile"
+            android:textColor="@color/md_white_1000"
+            android:fontFamily="@font/raleway_regular"
+            android:title="List Project" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_prog"
+            android:textColor="@color/md_white_1000"
+            android:fontFamily="@font/raleway_regular"
+            android:title="Project Progress History" />
+        <item
+            android:id="@+id/nav_list_profile"
+            android:icon="@drawable/ic_site_prof_history"
+            android:textColor="@color/md_white_1000"
+            android:fontFamily="@font/raleway_regular"
+            android:title="Site Profile History" />
+        <item
+            android:id="@+id/nav_cek_version"
+            android:textColor="@color/md_white_1000"
+            android:icon="@drawable/ic_version"
+            android:fontFamily="@font/raleway_regular"
+            android:title="Cek Version" />
+
+    </group>
+
+    <item android:title=" ">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_settings_outline"-->
+                <!--android:textColor="@color/md_white_1000"-->
+                <!--android:fontFamily="@font/raleway_regular"-->
+                <!--android:title="Setting" />-->
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout1"
+                android:textColor="@color/md_white_1000"
+                android:fontFamily="@font/raleway_regular"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

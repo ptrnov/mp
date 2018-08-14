@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorPressedHighlight"
+    android:radius="@dimen/radius_button">     <!-- ripple color -->
+
+    <!-- for Button -->
+    <item
+        android:drawable="@drawable/rounded_menu_red">
+    </item>
+
+</ripple>

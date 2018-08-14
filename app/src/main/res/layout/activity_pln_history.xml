@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.Site.PLN.History.PLNHistoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/linear_pln_history"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/raleway_regular"
+                android:text="Data PLN"
+                android:textColor="@color/md_red_A600"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_outline_top"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="18dp">
+                    <!--android:background="@drawable/rounded_view_outline_top"-->
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="ID Pelanggan "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/id_pelangan_pln_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_outline_top"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="18dp">
+                    <!--android:background="@drawable/rounded_view_middle"-->
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Nama Pelanggan"
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/nama_pelanggan_pln_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/rounded_view_outline_top"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="18dp">
+                    <!--android:background="@drawable/rounded_view_middle"-->
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="Daya "
+                        android:textColor="@color/md_grey_700"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/daya_listrik_history"
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/raleway_regular"
+                        android:text="-"
+                        android:textSize="13sp"
+                        android:textStyle="normal"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/pic_pln_history"
+                android:background="@drawable/rounded_menu"
+                android:layout_width="55dp"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/img_pln_history"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/count_photo_pln_history"
+                    android:layout_alignParentTop="true"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_photo_camera_black_24dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/count_photo_pln_history"
+                    android:textSize="10sp"
+                    android:layout_alignParentBottom="true"
+                    android:padding="4dp"
+                    android:text="photo"
+                    android:textColor="@color/md_white_1000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_btn_green"/>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/submit_pln_history"
+                android:text="SUBMIT"
+                android:layout_gravity="center"
+                android:textColor="@color/md_white_1000"
+                android:background="@drawable/button_bg"
+                android:layout_marginLeft="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,60 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:iosched="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/md_grey_300"
+    android:id="@+id/toolbar"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:theme="@style/MyAppTheme"
+    android:padding="2dp"
+    android:elevation="8dp"
+    iosched:targetApi="lollipop">
+    <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+    <!--app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+    <!--android:background="@color/colorPrimary"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/toolbar_title"
+            android:layout_width="332dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/rounded_menu_dark"
+            android:fontFamily="@font/raleway_regular"
+            android:paddingRight="12dp"
+            android:textColor="@color/md_black_1000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:theme="@style/AppTheme"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search M-Project"
+            app:showAsAction="ifRoom|collapseActionView" />
+        <!--<EditText-->
+            <!--android:id="@+id/toolbar_title"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:background="@drawable/rounded_menu_dark"-->
+            <!--android:drawableLeft="@drawable/ic_search"-->
+            <!--android:ems="10"-->
+            <!--android:fontFamily="@font/raleway_regular"-->
+            <!--android:hint="Search M-Project"-->
+            <!--android:textColor="@color/md_black_1000"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold" />-->
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

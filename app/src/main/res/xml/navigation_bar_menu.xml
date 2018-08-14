@@ -1,0 +1,23 @@
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        activeColor="@color/colorAccent"
+        icon="@drawable/icons8_gingerbread_house_38_grey"
+        id="@+id/tab_calls"
+        title="HOME"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+    <tab
+        activeColor="@color/colorAccent"
+        icon="@drawable/ic_event_grey"
+        id="@+id/tab_groups"
+        title="History"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+    <tab
+        activeColor="@color/colorAccent"
+        icon="@drawable/ic_event_grey"
+        id="@+id/tab_chats"
+        title="Site Profile"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+</tabs>
